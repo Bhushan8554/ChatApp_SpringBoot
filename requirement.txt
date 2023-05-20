@@ -1,0 +1,4 @@
+1. user can log in with the mobile
+2. user can add friends (send requests and accept request)
+3. user can search the users by user ID to send requests
+4. user able to see all chats at one page
