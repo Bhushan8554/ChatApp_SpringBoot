@@ -1,5 +1,8 @@
 package com.chatApp.entity;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
@@ -18,5 +21,7 @@ public class User {
 	private String mobile;
 	private String bio;
 	private String password;
+	
+	private List<UserDTO> friends=new ArrayList<>();
 	
 }
